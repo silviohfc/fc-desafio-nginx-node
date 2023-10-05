@@ -11,4 +11,6 @@ RUN apt-get update \
 
 COPY . .
 
+RUN npm install
+
 EXPOSE 3000
